@@ -1,58 +1,212 @@
-# cpy 📝
+<div align="center">
 
-> An ultra-minimalist, high-end browser extension designed to capture web text line-by-line instantly with a cute interactive bubble. No more clunky copy-pasting—just select and sync.
+# ⚡ CPY
+### *The Silent Data Specialist*
 
----
+**Capture • Structure • Control**
 
-## ✨ Features
+<p>
+A lightweight, privacy-first browser data engine built for developers,
+researchers, and AI dataset creation.
+</p>
 
-- **Cute Interaction:** A beautiful, responsive gradient bubble pops up exactly where your cursor is upon text selection.
-- **Line-by-Line Appending:** New selections automatically append to a new line, keeping your thoughts organized chronologically without clutter.
-- **Distraction-Free:** Runs completely in the background. No tab switching, no messy notepad popups.
-- **Manifest V3 Ready:** Built fully on the modern Manifest V3 standard, compatible with both Firefox and Chrome.
+<p>
+<a href="https://github.com/Nahid-mahmud555/CPY/blob/main/LICENSE">
+<img src="https://img.shields.io/github/license/Nahid-mahmud555/CPY?style=for-the-badge">
+</a>
 
----
+<a href="https://github.com/Nahid-mahmud555/CPY/stargazers">
+<img src="https://img.shields.io/github/stars/Nahid-mahmud555/CPY?style=for-the-badge">
+</a>
 
-## 🚀 Live Demo & Installation
+<img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 
-### 🔴 Status: Coming Soon!
-The stable version is currently under active development. We are fine-tuning the cloud-sync engine to integrate seamlessly with the **EX** ecosystem. 
+<img src="https://img.shields.io/badge/Platform-Chrome%20Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white">
 
-Stay tuned for the official Web Store releases! 🚀
+<img src="https://img.shields.io/badge/Open%20Source-Yes-success?style=for-the-badge">
 
----
+</p>
 
-## 🛠️ Local Development (How to Test)
-
-If you want to test the current prototype locally:
-
-### For Firefox (Manifest V3):
-1. Clone this repository: `git clone https://github.com/Nahid-mahmud555/cpy.git`
-2. Open Firefox and navigate to `about:debugging`.
-3. Click **"This Firefox"** on the left menu.
-4. Click **"Load Temporary Add-on..."** and select the `manifest.json` file from the cloned folder.
-5. Go to any webpage, select text, and click the cute bubble!
+</div>
 
 ---
 
-## 🤝 Contributing
+# 🚀 Overview
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+**CPY** isn't just another web clipper.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+It is a **high-performance browser-based data engine** designed to capture, clean, structure, and export web content for developers, researchers, and AI workflows.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'add: some amazing feature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Whether you're building datasets for LLM fine-tuning or simply organizing web information, **CPY** keeps everything fast, lightweight, and completely local.
 
----
+### ✨ Highlights
 
-## 🛡️ License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+- ⚡ Zero server processing
+- 🔒 Privacy-first architecture
+- 🤖 AI-ready dataset exports
+- 📦 Multiple export formats
+- 🌐 Works directly inside your browser
 
 ---
 
-<p align="center">Built with 🖤 for the ultimate developer & researcher workflow.</p>
+# 💎 Why CPY?
+
+Unlike traditional web clippers that store your data on remote servers, **CPY** keeps everything on your own device.
+
+It silently assists your workflow without interrupting your browsing experience.
+
+### Benefits
+
+- 🎯 One-click content selection
+- 🧹 Automatic content cleaning
+- 🧠 Smart structured extraction
+- 🔐 Local processing only
+- 🚀 Optimized for AI datasets
+
+---
+
+# 🛠 Features
+
+### 🟢 Intelligent Floating Bubble
+
+Instantly appears whenever text is selected, allowing distraction-free capturing.
+
+---
+
+### 📄 Multi-Format Export
+
+Export your captured content as:
+
+- JSON
+- PDF
+- CSV
+- TXT
+
+---
+
+### 🤖 AI Dataset Ready
+
+Generate structured datasets compatible with:
+
+- Alpaca
+- ShareGPT
+- Custom JSON formats
+
+---
+
+### 🌐 Offline Friendly
+
+Most processing happens locally, reducing dependency on internet connectivity.
+
+---
+
+### 👨‍💻 Developer Focused
+
+Built using modern browser APIs with performance and extensibility in mind.
+
+---
+
+# 📦 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Nahid-mahmud555/CPY.git
+```
+
+### 2. Open Extensions
+
+Go to
+
+```
+chrome://extensions/
+```
+
+or
+
+```
+edge://extensions/
+```
+
+---
+
+### 3. Enable Developer Mode
+
+Turn on the **Developer Mode** switch in the top-right corner.
+
+---
+
+### 4. Load Unpacked
+
+Click **Load Unpacked** and select the cloned **CPY** project folder.
+
+---
+
+# 💻 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| JavaScript | Core Engine |
+| Tailwind CSS | User Interface |
+| DOM API | Content Extraction |
+| Browser Storage API | Local Storage |
+| Chrome Extension API | Browser Integration |
+
+---
+
+# 🎯 Use Cases
+
+- AI Dataset Collection
+- Prompt Engineering
+- Web Research
+- Knowledge Base Building
+- Documentation
+- Data Annotation
+- Offline Content Collection
+
+---
+
+# 🔒 Privacy
+
+CPY follows a **privacy-first** philosophy.
+
+✅ No remote servers
+
+✅ No cloud processing
+
+✅ No user tracking
+
+✅ Everything stays on your device
+
+---
+
+# 🤝 Contributing
+
+Contributions are always welcome.
+
+If you'd like to improve performance, add new export formats, or enhance the user experience:
+
+1. Fork the repository
+2. Create a new branch
+3. Commit your changes
+4. Open a Pull Request
+
+---
+
+# ⭐ Support
+
+If you find **CPY** useful, consider giving the project a ⭐ on GitHub.
+
+It helps the project grow and motivates future development.
+
+---
+
+<div align="center">
+
+### ⚡ Built for the Future of AI Data Extraction
+
+**Fast • Minimal • Private**
+
+Made with ❤️ by **Nahid Mahmud**
+
+</div>
