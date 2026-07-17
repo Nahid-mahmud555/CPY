@@ -49,6 +49,16 @@ Whether you're building datasets for LLM fine-tuning or simply organizing web in
 
 ---
 
+---
+
+<img src="pic_01.png" alt="CPY Mafia Tech Banner" width="100%">
+
+</div>
+
+---
+
+
+
 # 💎 Why CPY?
 
 Unlike traditional web clippers that store your data on remote servers, **CPY** keeps everything on your own device.
