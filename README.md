@@ -14,9 +14,7 @@
   <img src="vid_01.gif" alt="CPY Demo" width="650">
 </p>
 
-<p align="center">
-  <img src="pic_01.png" alt="CPY Screenshot" width="720">
-</p>
+
 
 ---
 
@@ -34,6 +32,11 @@ No internet connection required after installation.
 Everything stays on your device.
 
 ---
+
+<p align="center">
+  <img src="pic_01.png" alt="CPY Screenshot" width="720">
+</p>
+
 
 # 🚀 Features
 
