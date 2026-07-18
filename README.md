@@ -10,6 +10,7 @@
 ![Offline](https://img.shields.io/badge/100%25-Offline-10B981)
 ![License](https://img.shields.io/badge/license-MIT-64748B)
 
+
 <p align="center">
   <img src="vid_01.gif" alt="CPY Demo" width="650">
 </p>
