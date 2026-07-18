@@ -10,12 +10,9 @@
 ![Offline](https://img.shields.io/badge/100%25-Offline-10B981)
 ![License](https://img.shields.io/badge/license-MIT-64748B)
 
-
 <p align="center">
   <img src="vid_01.gif" alt="CPY Demo" width="650">
 </p>
-
-
 
 ---
 
@@ -23,14 +20,14 @@
 
 **CPY** is a lightweight Chrome and Firefox extension that lets you save any selected text with a single click.
 
-Simply highlight text on any webpage, click the floating save button, and CPY stores it locally inside your browser. When you're finished, export everything as **JSON, CSV, TXT, or PDF**.
+Simply highlight text on any webpage, click the floating save button, and CPY instantly stores it locally inside your browser. When you're finished, export your entire collection as **JSON, CSV, TXT, or PDF**.
 
-No accounts.
-No cloud.
-No tracking.
+No accounts.  
+No cloud.  
+No tracking.  
 No internet connection required after installation.
 
-Everything stays on your device.
+Your data always stays on your device.
 
 ---
 
@@ -38,18 +35,19 @@ Everything stays on your device.
   <img src="pic_01.png" alt="CPY Screenshot" width="720">
 </p>
 
+---
 
 # 🚀 Features
 
 | Feature | Description |
 |---------|-------------|
-| ⚡ One-click capture | Select any text and save it instantly with the floating button. |
-| 💾 Local-first storage | Every snippet is stored only in your browser's local storage. |
-| 📄 Offline exports | Export your collection as JSON, CSV, TXT, or PDF. |
-| 🧹 Automatic cleanup | Removes duplicate entries, unnecessary line breaks, and messy formatting. |
-| 🌐 Cross-browser | Works on both Chrome and Firefox from a single codebase. |
-| 🔒 Privacy-first | No analytics, no servers, no accounts, and no tracking. |
-| 🚀 Fast & lightweight | Tiny footprint with zero background services or cloud syncing. |
+| ⚡ **One-click capture** | Select any text and save it instantly with the floating button. |
+| 💾 **Local-first storage** | Every saved snippet stays only in your browser's local storage. |
+| 📄 **Offline exports** | Export your collection as JSON, CSV, TXT, or PDF anytime. |
+| 🧹 **Automatic cleanup** | Removes duplicate entries, messy line breaks, and unnecessary formatting. |
+| 🌐 **Cross-browser** | One codebase that works on both Chrome and Firefox. |
+| 🔒 **Privacy-first** | No analytics, no cloud, no tracking, and no external servers. |
+| 🚀 **Fast & lightweight** | Tiny footprint with zero background services. |
 
 ---
 
@@ -77,12 +75,12 @@ Everything happens locally inside your browser.
 
 ---
 
-# ✅ Works On
+# ✅ Where CPY Works
 
 CPY works on almost every standard webpage, including:
 
 - Blogs
-- Documentation sites
+- Documentation websites
 - News websites
 - Research articles
 - AI chat platforms
@@ -97,34 +95,32 @@ CPY works on almost every standard webpage, including:
 
 # ❌ Browser Limitations
 
-Some pages intentionally block all browser extensions.
-
 These are browser security restrictions—not bugs in CPY.
 
-| Location | Reason |
-|----------|--------|
-| Browser PDF Viewer (`file:///...pdf`) | Built-in PDF viewers are protected internal pages. |
-| `chrome://`, `about:`, `edge://`, `view-source:` | Browser system pages don't allow extensions. |
-| Google Docs, Sheets & Slides | They render content using `<canvas>` instead of selectable HTML text. |
+| Location | Why |
+|----------|-----|
+| Browser PDF Viewer (`file:///...pdf`) | Built-in PDF viewers are protected browser pages that extensions cannot access. |
+| `chrome://`, `about:`, `edge://`, `view-source:` | Internal browser pages do not allow extensions to run. |
+| Google Docs, Sheets & Slides | These apps render content using `<canvas>` instead of normal selectable HTML text. |
 
 ### PDF Workaround
 
 Open the PDF using any web-based PDF viewer instead of the browser's built-in viewer.
 
-Then CPY can capture text normally.
+Once the PDF loads as a normal webpage, CPY can capture text normally.
 
 ---
 
 # 💡 Perfect For
 
-CPY is especially useful if you:
+CPY is ideal for:
 
-- Save AI-generated answers
-- Collect research notes
-- Build your own offline knowledge base
-- Gather snippets from multiple tabs
-- Archive useful articles
-- Export reading sessions for later review
+- Saving AI-generated answers
+- Collecting research notes
+- Building an offline knowledge base
+- Gathering snippets from multiple tabs
+- Archiving useful articles
+- Exporting reading sessions for later review
 
 ---
 
@@ -141,28 +137,28 @@ Privacy is the core design principle behind CPY.
 - ✅ No external servers
 - ✅ No internet required after installation
 
-Your data never leaves your browser.
+Everything you save remains inside your browser.
 
 ---
 
 # 📦 Export Formats
 
-Export everything with one click.
+Export your entire collection anytime.
 
 Supported formats:
 
-- JSON
-- CSV
-- TXT
-- PDF
+- 📄 JSON
+- 📊 CSV
+- 📝 TXT
+- 📕 PDF
 
-All exports are generated completely offline.
+All export files are generated completely offline.
 
 ---
 
 # 🤝 Contributing
 
-Contributions are always welcome.
+Contributions are always welcome!
 
 If you'd like to improve CPY:
 
@@ -171,9 +167,9 @@ If you'd like to improve CPY:
 - 🔧 Submit a Pull Request
 - ⭐ Star the repository if you find it useful
 
-For collaborations or inquiries:
+For collaborations, partnerships, or questions:
 
-📧 **tohidul07890@gmail.com**
+**📧 tohidul07890@gmail.com**
 
 ---
 
@@ -181,7 +177,7 @@ For collaborations or inquiries:
 
 Released under the **MIT License**.
 
-Feel free to use, modify, and distribute it.
+You're free to use, modify, and distribute CPY in accordance with the license terms.
 
 ---
 
