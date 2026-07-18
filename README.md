@@ -1,222 +1,123 @@
-<div align="center">
-
 # ⚡ CPY
-### *The Silent Data Specialist*
 
-**Capture • Structure • Control**
+### One Click and Download
 
-<p>
-A lightweight, privacy-first browser data engine built for developers,
-researchers, and AI dataset creation.
-</p>
+**Select. Grab. Export. — 100% offline, no cloud, no tracking.**
 
-<p>
-<a href="https://github.com/Nahid-mahmud555/CPY/blob/main/LICENSE">
-<img src="https://img.shields.io/github/license/Nahid-mahmud555/CPY?style=for-the-badge">
-</a>
+![Chrome](https://img.shields.io/badge/Chrome-supported-4285F4?logo=googlechrome&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-supported-FF7139?logo=firefoxbrowser&logoColor=white)
+![Manifest V3](https://img.shields.io/badge/Manifest-V3-6366F1)
+![Offline](https://img.shields.io/badge/100%25-Offline-10B981)
+![License](https://img.shields.io/badge/license-MIT-64748B)
 
-<a href="https://github.com/Nahid-mahmud555/CPY/stargazers">
-<img src="https://img.shields.io/github/stars/Nahid-mahmud555/CPY?style=for-the-badge">
-</a>
-
-<img src="https://img.shields.io/badge/Language-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-
-<img src="https://img.shields.io/badge/Platform-Chrome%20Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white">
-
-<img src="https://img.shields.io/badge/Open%20Source-Yes-success?style=for-the-badge">
-
-</p>
-
-</div>
+![CPY banner](assets/banner.png)
 
 ---
 
-# 🚀 Overview
+## ✨ What is CPY?
 
-**CPY** isn't just another web clipper.
+**CPY** is a lightweight Chrome & Firefox extension that lets you select any text on the web and save it with a single click. Every saved snippet is stored locally on your device, and you can export your whole collection anytime as **JSON, CSV, TXT, or PDF** — no account, no server, no internet required after install.
 
-It is a **high-performance browser-based data engine** designed to capture, clean, structure, and export web content for developers, researchers, and AI workflows.
-
-Whether you're building datasets for LLM fine-tuning or simply organizing web information, **CPY** keeps everything fast, lightweight, and completely local.
-
-### ✨ Highlights
-
-- ⚡ Zero server processing
-- 🔒 Privacy-first architecture
-- 🤖 AI-ready dataset exports
-- 📦 Multiple export formats
-- 🌐 Works directly inside your browser
+Perfect for researchers, students, and anyone who copies AI answers, articles, or reference material from multiple tabs and wants it organized in one clean, exportable dataset.
 
 ---
 
----
+## 🚀 Features
 
-<img src="pic_01.png" alt="CPY Mafia Tech Banner" width="100%">
-
-</div>
-
----
-
-
-
-# 💎 Why CPY?
-
-Unlike traditional web clippers that store your data on remote servers, **CPY** keeps everything on your own device.
-
-It silently assists your workflow without interrupting your browsing experience.
-
-### Benefits
-
-- 🎯 One-click content selection
-- 🧹 Automatic content cleaning
-- 🧠 Smart structured extraction
-- 🔐 Local processing only
-- 🚀 Optimized for AI datasets
+| | |
+|---|---|
+| 🖱️ **One-click grab** | Select any text → a floating bubble appears → click to save |
+| 💾 **Local-first storage** | Everything stays in your browser's local storage — nothing leaves your device |
+| 📄 **4 export formats** | JSON, CSV, TXT, and PDF — all generated fully offline |
+| 🧼 **Smart cleanup** | Auto-removes messy line breaks, stray quotes, and exact duplicates |
+| 🌐 **Cross-browser** | One codebase, works natively on both Chrome and Firefox |
+| 🔒 **Privacy by design** | No analytics, no external requests, no permissions beyond local storage |
 
 ---
 
-# 🛠 Features
+## 📦 Installation
 
-### 🟢 Intelligent Floating Bubble
+### Chrome / Edge / Brave
+1. Download or clone this repository
+2. Open `chrome://extensions`
+3. Turn on **Developer mode** (top-right toggle)
+4. Click **Load unpacked** → select the project folder
+5. Pin the CPY icon from the extensions toolbar for quick access
 
-Instantly appears whenever text is selected, allowing distraction-free capturing.
-
----
-
-### 📄 Multi-Format Export
-
-Export your captured content as:
-
-- JSON
-- PDF
-- CSV
-- TXT
+### Firefox
+1. Open `about:debugging#/runtime/this-firefox`
+2. Click **Load Temporary Add-on**
+3. Select the `manifest.json` file from the project folder
 
 ---
 
-### 🤖 AI Dataset Ready
-
-Generate structured datasets compatible with:
-
-- Alpaca
-- ShareGPT
-- Custom JSON formats
-
----
-
-### 🌐 Offline Friendly
-
-Most processing happens locally, reducing dependency on internet connectivity.
-
----
-
-### 👨‍💻 Developer Focused
-
-Built using modern browser APIs with performance and extensibility in mind.
-
----
-
-# 📦 Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Nahid-mahmud555/CPY.git
-```
-
-### 2. Open Extensions
-
-Go to
+## 🧭 How It Works
 
 ```
-chrome://extensions/
+Select text on any page
+        ↓
+   ⚡ bubble appears
+        ↓
+   Click to save locally
+        ↓
+Open the CPY popup → Export as JSON / CSV / TXT / PDF
 ```
 
-or
+![Selecting text and grabbing it with CPY](assets/demo-selection.png)
 
-```
-edge://extensions/
-```
+Everything happens inside your browser. No data is ever sent anywhere.
 
 ---
 
-### 3. Enable Developer Mode
+## ✅ Where CPY Works
 
-Turn on the **Developer Mode** switch in the top-right corner.
+- Any regular website — blogs, docs, news, articles
+- AI chat platforms — ChatGPT, Gemini, Claude, and similar
+- Any `http://` or `https://` page with real, selectable text
 
----
+## ❌ Where CPY Can't Work (Browser Limitations)
 
-### 4. Load Unpacked
+These aren't bugs — browsers deliberately block **all** extensions from running here, by design:
 
-Click **Load Unpacked** and select the cloned **CPY** project folder.
+| Location | Why |
+|---|---|
+| Browser's built-in PDF viewer (`file:///…pdf`) | Runs in a privileged internal page extensions can't access |
+| `chrome://`, `about:`, `view-source:` pages | Reserved browser UI, off-limits to extensions |
+| Google Docs / Sheets / Slides | Renders content on `<canvas>` instead of real HTML text, bypassing the browser's native selection entirely |
 
----
-
-# 💻 Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| JavaScript | Core Engine |
-| Tailwind CSS | User Interface |
-| DOM API | Content Extraction |
-| Browser Storage API | Local Storage |
-| Chrome Extension API | Browser Integration |
+**Workaround for PDFs:** open the file in a regular HTML-based web PDF viewer instead of the browser's native one, so it loads as a normal webpage.
 
 ---
 
-# 🎯 Use Cases
+## 🕐 When to Use CPY
 
-- AI Dataset Collection
-- Prompt Engineering
-- Web Research
-- Knowledge Base Building
-- Documentation
-- Data Annotation
-- Offline Content Collection
+- Collecting AI-generated answers into a clean dataset
+- Saving research snippets from multiple articles/tabs
+- Building a quick offline knowledge base without copy-pasting into a doc manually
+- Exporting a reading session as PDF/TXT to review later, fully offline
 
----
-
-# 🔒 Privacy
-
-CPY follows a **privacy-first** philosophy.
-
-✅ No remote servers
-
-✅ No cloud processing
-
-✅ No user tracking
-
-✅ Everything stays on your device
+![CPY popup with export options](assets/popup-preview.png)
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
-Contributions are always welcome.
+Contributions are very welcome!
 
-If you'd like to improve performance, add new export formats, or enhance the user experience:
+- 🐛 Found a bug or have a feature idea? Open an issue or send a **pull request**
+- 🤝 Want to collaborate or partner on this project? Email me directly:
 
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Open a Pull Request
+  **📧 tohidul07890@gmail.com**
 
----
-
-# ⭐ Support
-
-If you find **CPY** useful, consider giving the project a ⭐ on GitHub.
-
-It helps the project grow and motivates future development.
+- ⭐ If CPY is useful to you, please **star the repo** — it genuinely helps
+- 💬 Feedback, suggestions, and criticism are always appreciated
 
 ---
 
-<div align="center">
+## 📜 License
 
-### ⚡ Built for the Future of AI Data Extraction
+MIT — free to use, modify, and distribute.
 
-**Fast • Minimal • Private**
+---
 
-Made with ❤️ by **Nahid Mahmud**
-
-</div>
+**Made with ⚡ for people who hate losing good text.**
