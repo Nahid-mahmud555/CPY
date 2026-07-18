@@ -10,7 +10,13 @@
 ![Offline](https://img.shields.io/badge/100%25-Offline-10B981)
 ![License](https://img.shields.io/badge/license-MIT-64748B)
 
-![CPY banner](assets/banner.png)
+<p align="center">
+  <img src="vid_01.gif" alt="CPY demo" width="600">
+</p>
+
+<p align="center">
+  <img src="pic_01.png" alt="CPY popup screenshot" width="700">
+</p>
 
 ---
 
@@ -35,22 +41,6 @@ Perfect for researchers, students, and anyone who copies AI answers, articles, o
 
 ---
 
-## 📦 Installation
-
-### Chrome / Edge / Brave
-1. Download or clone this repository
-2. Open `chrome://extensions`
-3. Turn on **Developer mode** (top-right toggle)
-4. Click **Load unpacked** → select the project folder
-5. Pin the CPY icon from the extensions toolbar for quick access
-
-### Firefox
-1. Open `about:debugging#/runtime/this-firefox`
-2. Click **Load Temporary Add-on**
-3. Select the `manifest.json` file from the project folder
-
----
-
 ## 🧭 How It Works
 
 ```
@@ -62,8 +52,6 @@ Select text on any page
         ↓
 Open the CPY popup → Export as JSON / CSV / TXT / PDF
 ```
-
-![Selecting text and grabbing it with CPY](assets/demo-selection.png)
 
 Everything happens inside your browser. No data is ever sent anywhere.
 
@@ -95,8 +83,6 @@ These aren't bugs — browsers deliberately block **all** extensions from runnin
 - Saving research snippets from multiple articles/tabs
 - Building a quick offline knowledge base without copy-pasting into a doc manually
 - Exporting a reading session as PDF/TXT to review later, fully offline
-
-![CPY popup with export options](assets/popup-preview.png)
 
 ---
 
