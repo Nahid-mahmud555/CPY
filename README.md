@@ -82,7 +82,7 @@ CPY functions as a lightweight browser extension optimized for speed, precision,
 
 | Resource Type | Direct Access Link |
 | :--- | :--- |
-| **Firefox Add-on** | [Install on Firefox Add-ons](https://addons.mozilla.org/firefox/addon/cpy-one-click-and-download/) |
+| **Firefox Add-on** | [Install on Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/cpy/) |
 | **Product Hunt** | [View Pre-Launch Page](https://www.producthunt.com/products/cpy-one-click-and-download?launch=cpy-one-click-and-download) |
 | **Dev.to Publication** | [Read Article on Dev.to](https://dev.to/nahidmahmud555/cpy-solving-the-modern-data-fragmentation-crisis-4lml) |
 | **Hashnode Blog** | [Read Post on Hashnode](https://nahid-mahmud555.hashnode.dev/cpy-one-click-and-download) |
